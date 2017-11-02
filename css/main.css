@@ -1,0 +1,94 @@
+body {
+	margin: 0 auto;
+	font-family: "San"
+}
+
+.tittle {
+	position: absolute;
+	margin: 0;
+	font-size: 90px;
+	font-weight: 1000;
+	color: white;
+	left: 5%;
+	cursor: pointer;
+}
+
+.first_form {
+	position: relative;
+	margin: 0;
+	height: 0;
+	width: 0;
+	overflow:hidden; 
+	transition: .5s;
+}
+
+.first_form.active {
+	position: relative;
+	margin: 0;
+	width: 100%;
+	height: 70vh;
+	background-color: #b243db; 
+	left: 0;
+	top: 0;
+	transition: .5s;
+	z-index: 3;
+}
+
+.second_form {
+	position: absolute;
+	margin: 0;
+	left: 0;
+	top: 0;
+	height: 100px;
+	width: 100px;
+	width: 0;
+	height: 0;
+	border-top: 120px solid #b243db; 
+	border-right: 120px solid transparent;
+	cursor: pointer;
+	z-index: 2;  
+}
+
+
+.border-1 {
+	position: absolute;
+	margin: 0;
+	top: -105px;
+	left: 15px;
+	border-radius: 10px;
+	width: 40px;
+	border: 3px solid white;
+	z-index: 2;
+}
+
+.border-2 {
+	position: absolute;
+	margin: 0;
+	top: -90px;
+	left: 15px;
+	border-radius: 10px;
+	width: 40px;
+	border: 3px solid white;
+	z-index: 2;
+}
+
+.border-3 {
+	position: absolute;
+	margin: 0;
+	top: -75px;
+	left: 15px;
+	border-radius: 10px;
+	width: 40px;
+	border: 3px solid white;
+	z-index: 2;
+}
+
+
+.event {
+	position: absolute;
+	height: 35vh;
+	width: 30%;
+	background-color: black;
+	left: 5%;
+	top: 20vh;
+}
