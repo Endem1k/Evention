@@ -7,11 +7,11 @@ $(document).ready(function() {
 		$('.first_form').removeClass('active');
 	});
 
-	$('.main-slider').slick({
-		dots: true,
-		arrows: true,
+	$('.main-slider_main').slick({
 		autoplay: true,
-		autoplaySpeed: 7000,
-		speed: 2000
+		autoplaySpeed: 3000,
+		fade: true,
+  		cssEase: 'linear',
+  		speed: 2000
 	});
 });

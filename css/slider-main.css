@@ -1,8 +1,28 @@
-.slide .container {
-	padding: 300px 0 100px 100px;
+.slide .container_main {
+
+	padding: 300px 0px 100px 100px;
+}
+
+.main-slider_main {
+	position: relative;
+	top: 18%;
+	left: 5.5%;
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
 }
 
 .slide {
 	background-size: cover;
-	background-position-y: -100px; 
+}
+
+
+
+.pict__1 {
+	background-image: url("../img/helsinki-bg1.jpg");
+
+}
+
+.pict__2 {
+	background-image: url("../img/helsinki-bg3.jpg");
 }
