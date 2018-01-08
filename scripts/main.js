@@ -1,10 +1,15 @@
 $(document).ready(function() {
-	$('.second_form').click(function() {
-		$('.first_form').toggleClass('active');
+	$('.second_form_button').click(function() {
+		
+		var logo = document.getElementById("first_form");
+	    TweenLite.to(logo, 0.5, {width:"100%", ease:Sine.easeInOut});
+	    TweenLite.to(logo, 0.5, {height:"70vh", ease:Sine.easeInOut, delay:1});
 	});
 
-	$('.tittle').click(function() {
-		$('.first_form').removeClass('active');
+	$('.title').click(function() {
+		var logo = document.getElementById("first_form");
+	    TweenLite.to(logo, 0.5, {width:"0%", ease:Sine.easeInOut});
+	    TweenLite.to(logo, 0.5, {height:"13vh", ease:Sine.easeInOut, delay:0.7 });
 	});
 
 	$('.main-slider').slick({

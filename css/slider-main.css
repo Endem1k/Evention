@@ -1,8 +1,61 @@
-.slide .container {
+.container {
 	padding: 300px 0 100px 100px;
 }
 
 .slide {
 	background-size: cover;
-	background-position-y: -100px; 
+	width: 120%;
+	height: 110%;
+}
+
+.background_black {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+	background: black;
+	opacity: 0.5;
+}
+
+.title_for_slider {
+	position: absolute;
+	margin: 0;
+	color: white;
+	font-weight: 900;
+	font-size: 40px;
+	bottom: 10%;
+	left: 5%;
+	z-index: 10;
+}
+
+.event {
+	position: absolute;
+	height: 40vh;
+	width: 40%;
+	overflow: hidden;
+	left: 5%;
+	top: 20vh;
+}
+
+.pict__1 {
+	background-image: url("../img/pic_for_slider_1.jpg");
+
+}
+
+.background_month {
+	position: absolute;
+	overflow: hidden;
+	background: white;
+	top: 144px;
+	width: 45%;
+	height: 50px;
+}
+
+.month {
+	position: absolute;
+	margin: 0;
+	color: black;
+	font-size: 50px;
+	font-weight: 900;
+	left: 5%;
+	top: -10%;
 }
